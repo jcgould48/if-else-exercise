@@ -21,7 +21,7 @@ const stringLength = sizeOfStr4.length;
 if (stringLength > 20){
   return "That's a long string!";
    } 
-else if ((stringLength >= 10) && (stringLength <= 20)){
+else if ((stringLength >= 10)){
     return "That's a regular sized string!";
      } 
 else if(stringLength < 10){
@@ -36,7 +36,7 @@ function instructorHeight(nme) {
   else if (nme === 'Mesuara'){
     return 67;
   }
-  {
+  else {
   return 'I don\'t know that instructor!';}
   }
 
