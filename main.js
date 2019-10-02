@@ -40,7 +40,7 @@ function instructorHeight(nme) {
   return 'I don\'t know that instructor!';}
   }
 
-  {{   }}
+
 
 
 
